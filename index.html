@@ -18,7 +18,18 @@
 			<div class="col desktop-nav"><h3 class="h3 nav-item"><a href="#upcoming-events">Upcoming Events</a></h3></div>
 			<div class="col desktop-nav"><h3 class="h3 nav-item"><a href="#contact-us">Contact Us</a></h3></div>
 		</div>
-		<div class="row image-container">
+		<div id="hamburger-menu">
+			<div class="div-hamburger-button">
+				<button class="hamburger-button"><i class="fa-solid fa-bars"></i></button>
+				<div class="hamburger-links">
+					<h3 class="h3"><a href="our-story.html">Our Story</a></h3>
+					<h3 class="h3"><a href="#ways-you-can-help">Ways You Can Help</a></h3>
+					<h3 class="h3"><a href="#upcoming-events">Upcoming Events</a></h3>
+					<h3 class="h3"><a href="#contact-us">Contact Us</a></h3>
+				</div>
+			</div>
+		</div>
+		<div id="desktop-header" class="row image-container">
 			<div id="div-header-image">
 				<img id="header-image" src="images/header-image.png" alt="A rectangle with a checkerboard pattern of cream and peach in the background, and cartoon-style imagery on top: puffy white clouds are in the top left and right corners, and a big sun with orange rays and a yellow center sits among the clouds on the left. A straight, brick walkway in alternating colors of warm, mid-tone brown and tan lines the bottom of the image. Periwinkle, saffron, and white colored daisies with green leaves are growing from terracotta pots on the walkway and are reaching up into the clouds. All of this surrounds the title, 'We are here to help', followed by the text and 'Get started' button. End of image description."/>
 			</div>
@@ -26,6 +37,18 @@
 				<h1 class="h1-margin-t">We <span class="a-aalt-2">a</span>re here to he<span class="l-aalt-1">l</span>p.</h1>
 				<p id="header-text">Since 2021 we have been the starting point for connecting Robertson County residents with the resources, services, and programs needed for themselves and their households.</p>
 				<div>
+					<a href="#get-started"><button type="button" class="btn"><h2>Get started</h2></button></a>
+				</div>
+			</div>
+		</div>
+		<div id="mobile-header" class="row image-container">
+			<div id="div-header-image-mobile">
+				<img id="header-image-mobile" src="images/header-image-mobile.png" alt="A rectangle with a checkerboard pattern of cream and peach in the background, and cartoon-style imagery on top: puffy white clouds are in the top left and right corners, and a big sun with orange rays and a yellow center sits among the clouds on the left. A straight, brick walkway in alternating colors of warm, mid-tone brown and tan lines the bottom of the image. Periwinkle, saffron, and white colored daisies with green leaves are growing from terracotta pots on the walkway and are reaching up into the clouds. All of this surrounds the title, 'We are here to help', followed by the text and 'Get started' button. End of image description."/>
+			</div>
+			<div class="overlay-text">
+				<h1 class="h1-margin-t-mobile">We <span class="a-aalt-2">a</span>re here to he<span class="l-aalt-1">l</span>p.</h1>
+				<p id="header-text-mobile">Since 2021 we have been the starting point for connecting Robertson County residents with the resources, services, and programs needed for themselves and their households.</p>
+				<div id="mobile-gs-button">
 					<a href="#get-started"><button type="button" class="btn"><h2>Get started</h2></button></a>
 				</div>
 			</div>
@@ -43,16 +66,6 @@
 					<div class="col"><i id="pen" class="fa-solid fa-marker fa-2xl"></i></div>
 					<div class="col"></div>
 				</div>
-				<!--<div id="icons-lg" class="row">
-					<div class="col"></div>
-					<div class="col"><i class="fa-solid fa-house-chimney fa-lg"></i></div>
-					<div class="col"><i class="fa-solid fa-faucet-drip fa-lg"></i></div>
-					<div class="col"><i class="fa-solid fa-carrot fa-lg"></i></div>
-					<div class="col"><i class="fa-solid fa-kit-medical fa-2lg"></i></div>
-					<div class="col"><i class="fa-solid fa-hand-holding-heart fa-lg"></i></div>
-					<div class="col"><i class="fa-solid fa-marker fa-lg"></i></div>
-					<div class="col"></div>
-				</div>-->
 				<div id="icons-desc" class="row">
 					<div class="col"><p></p></div>
 					<div class="col"><p>Housing and rent assistance</p></div>
@@ -62,6 +75,28 @@
 					<div class="col"><p>Mental health and counseling programs</p></div>
 					<div class="col"><p>State benefits applications</p></div>
 					<div class="col"><p></p></div>
+				</div>
+			</div>
+			<div id="div-our-case-mobile">
+				<div id="icons-sm" class="row">
+						<div class="col-1"></div>
+						<div class="col"><i class="fa-solid fa-house-chimney fa-sm"></i></div>
+						<div class="col"><i class="fa-solid fa-faucet-drip fa-sm"></i></div>
+						<div class="col"><i class="fa-solid fa-carrot fa-sm"></i></div>
+						<div class="col"><i class="fa-solid fa-kit-medical fa-sm"></i></div>
+						<div class="col"><i class="fa-solid fa-hand-holding-heart fa-sm"></i></div>
+						<div class="col"><i class="fa-solid fa-marker fa-sm"></i></div>
+						<div class="col-1"></div>
+				</div>
+				<div id="icons-desc-mobile" class="row">
+					<div class="col-1"><p></p></div>
+					<div class="col"><p>Housing and rent assistance</p></div>
+					<div class="col"><p>Utility assistance</p></div>
+					<div class="col"><p>Food assistance</p></div>
+					<div class="col"><p>Medical and prescription assistance</p></div>
+					<div class="col"><p>Mental health and counseling programs</p></div>
+					<div class="col"><p>State benefits applications</p></div>
+					<div class="col-1"><p></p></div>
 				</div>
 			</div>
 		</div>
@@ -192,7 +227,7 @@
 		<div class="row separator"></div>
 		<div id="contact-us" class="row image-container">
 			<div id="div-footer-image">
-				<img id="footer-image" src="images/footer-image.png" style="margin-top: 1vw" alt="A rectangle with a checkerboard pattern of cream and light tan in the background, and cartoon-style imagery on top, similar to the image at the top of the page. A straight, brick walkway in two alternating shades of warm red-brown lines the bottom of the image. Green, leafy sprouts, and hot pink, periwinkle, and white daisies in terracotta pots are growing from the walkway and are reaching upwards. Two blue birds are flying overhead, one on the left and one on the right. All of this surrounds the title, 'Contact Information' followed by, 'We are located inside the HealthPoint Dental and Family Planning Building at 1002 West Brown Street, Hearne, TX 77859. Office hours: Monday through Friday, 8:00 AM to 12:00 PM and 1:00 PM to 5:00 PM. Closed Saturday and Sunday. Phone: 979-701-8830. Email: help@robertsonresource.org. Mailing Address: PO Box 302, Hearne, TX 77859.' End of image description."/>
+				<img id="footer-image" src="images/footer-image.png" style="margin-top: 1vw" alt="A rectangle with a checkerboard pattern of cream and peach in the background, and cartoon-style imagery on top: puffy white clouds are in the top left and right corners and a straight, brick walkway in alternating colors of warm, mid-tone brown and tan lines the bottom of the image. Periwinkle, saffron, and white colored daisies with green leaves are growing from terracotta pots on the walkway and are reaching up into the clouds. All of this surrounds the title, 'Contact Information', followed by the text. End of image description."/>
 			</div>
 			<div class="overlay-text footer">
 				<h6>Cont<span class="a-aalt-2">a</span>ct In<span class="f-aalt-1">f</span>orm<span class="a-aalt-2">a</span>t<span class="i-aalt-1">i</span>on</h6>

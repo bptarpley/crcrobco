@@ -25,7 +25,7 @@
 
 body {
     background-image:
-      linear-gradient(45deg, #000000 25%, transparent 25%), 
+      linear-gradient(45deg, #fffaed 25%, transparent 25%), 
       linear-gradient(135deg, #fffaed 25%, transparent 25%),
       linear-gradient(45deg, transparent 75%, #fffaed 75%),
       linear-gradient(135deg, transparent 75%, #fffaed 75%);
@@ -181,6 +181,21 @@ a.mail-to:hover, a.street-add:hover {
 	white-space: nowrap;
 }
 
+#hamburger-menu {display: none;}
+		
+.hamburger-button {
+	color: #252523;
+	background-color: #fffaed;
+	border: 1.3px solid #252523 !important;
+	border-radius: 0.4vw !important;
+	box-shadow: 0.20vw 0.25vw 0 0 rgb(37,37,35);
+}
+
+.hamburger-links {
+	display: none;
+	background-color: #fffaed;
+}
+
 #div-crc-logo {
 	margin-top: 0.5vw;
 	margin-left: 1vw;
@@ -190,6 +205,8 @@ a.mail-to:hover, a.street-add:hover {
 #crc-logo {
 	width: calc(100%/1.25);
 }
+
+#mobile-header {display: none;}
 
 #div-header-image {height: calc(100% - 1em);}
 
@@ -254,10 +271,7 @@ a.mail-to:hover, a.street-add:hover {
 
 #house:hover, #faucet:hover, #carrot:hover, #kit:hover, #hand:hover, #pen:hover {transform: translateY(-3.5px);}
 
-#icons-lg {
-	margin-top: 0;
-	margin-bottom: 1vw;
-}
+#div-our-case-mobile {display: none;}
 
 #social-icons {
 	margin-top: 0.5vw;
@@ -295,7 +309,7 @@ a.mail-to:hover, a.street-add:hover {
 
 .ticker {
 	font-family: "kit-rounded", sans-serif;
-	font-size: clamp(0.9rem, 3vw, 3rem) !important;
+	font-size: clamp(0.8rem, 3vw, 3rem) !important;
 	font-weight: 300;
 	color: #252523 !important;
 	text-align: center;
@@ -446,6 +460,89 @@ a.mail-to:hover, a.street-add:hover {
 	margin-bottom: 0;
 	font-size: 1.1vw;
 	font-weight: 300;
+}
+
+/*END DESKTOP*/
+
+/*START MOBILE*/
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+	.h1-margin-t-mobile {margin-top: 5vw;}
+	
+	p {
+		font-family: "kit-rounded", sans-serif;
+		font-weight: 300;
+		font-size: clamp(0.4rem, 1.2vw, 1.2rem);
+		color: #252523 !important;
+	}
+	
+	#desktop-header {display: none;}
+	
+	#mobile-header {display: block;}
+	
+	#header-image-mobile {
+		width: 100%;
+		height: auto;
+		margin-top: 1.5vw;
+	}
+	
+	#header-text-mobile {
+		margin-left: 12vw;
+		margin-right: 12vw;
+		margin-top: 2%;
+		font-size: clamp(0.5rem, 1vw, 1rem);
+		font-weight: 200;
+	}
+	
+	.btn {
+		background-color: #fffaed !important;
+		border: 1.3px solid #252523 !important;
+		border-radius: 0.4vw !important;
+		box-shadow: 0.20vw 0.25vw 0 0 rgb(37,37,35);
+		font-family: "kit-rounded", sans-serif;
+		font-weight: 500 !important;
+		color: #252523 !important;
+		margin-top: 0;
+		padding-top: 0 !important;
+		padding-bottom: 0.5vw !important;
+	}
+	
+	#mobile-gs-button {margin-top: -2vw;}
+	
+	#hamburger-menu {
+		display: flex;
+		justify-content: flex-end;
+		margin-top: -5vw;
+	}
+	
+	.desktop-nav {display: none;}
+	
+	#div-our-case {display: none;}
+	
+	#div-our-case-mobile {
+		display: block;
+		width: 100%;
+		height: auto;
+		margin-top: 3vw;
+		text-align: center;
+	}
+	
+	#icons-sm {
+		margin-top: 0;
+		margin-bottom: 1vw;
+	}
+	
+	.div-brown-check {
+		width: 100%;
+		margin-top: 2vw;
+}
+	
+	.thankful {
+		width: auto;
+		margin-top: 0;
+		text-align: center;
+		justify-content: center;
+	}
 }
 
 :root {

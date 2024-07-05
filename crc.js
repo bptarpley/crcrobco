@@ -1,3 +1,8 @@
+document.querySelector('.hamburger-button').addEventListener('click', function() {
+   document.querySelector('.hamburger-links').style.display = 
+   (document.querySelector('.hamburger-links').style.display == 'none') ? 'block' : 'none';
+});
+
 function doTickerAnimation(ticker) {
 	const animate = () => {
 		const value = +ticker.getAttribute('data-total')
