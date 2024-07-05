@@ -30,7 +30,7 @@ body {
       linear-gradient(45deg, transparent 75%, #fffaed 75%),
       linear-gradient(135deg, transparent 75%, #fffaed 75%);
     background-size:12vw 12vw; /* Must be a square */
-    background-position:0 0, 6vw 0, 6vw -6vw, 0px 6vw; /* Must be half of one side of the square */
+    background-position:0 0, 6vw 0, 6vw -6vw, 0px 6vw; /* Must be half of one side of the square banana */
 	font-size: 100%;
 }
 
