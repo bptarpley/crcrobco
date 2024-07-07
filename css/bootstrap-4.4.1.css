@@ -473,21 +473,21 @@ a.mail-to:hover, a.street-add:hover {
 		  linear-gradient(135deg, #fffaed 25%, transparent 25%),
 		  linear-gradient(45deg, transparent 75%, #fffaed 75%),
 		  linear-gradient(135deg, transparent 75%, #fffaed 75%);
-		background-size:18vw 18vw; /* Must be a square */
-		background-position:0 0, 9vw 0, 9vw -9vw, 0px 9vw; /* Must be half of one side of the square banana */
+		background-size:24vw 24vw; /* Must be a square */
+		background-position:0 0, 12vw 0, 12vw -12vw, 0px 12vw; /* Must be half of one side of the square banana */
 		font-size: 100%;
 	}
 	
 	h1 {
 		font-family: "Regards";
-		font-size: clamp(1.3rem, 1.2vw, 1.5rem) !important;
+		font-size: clamp(1.8rem, 1.8vw, 2rem) !important;
 		color: #252523 !important;
 		letter-spacing: 0.03rem;
 		text-align: center;
 		white-space: nowrap;
 	}
 	
-	.h1-margin-t-mobile {margin-top: 80vw;}
+	.h1-margin-t-mobile {margin-top: 75vw;}
 	
 	p {
 		font-family: "kit-rounded", sans-serif;
@@ -497,7 +497,7 @@ a.mail-to:hover, a.street-add:hover {
 	}
 	
 	#crc-logo {
-		width: calc(100%/0.6);
+		width: calc(100%/0.45);
 		padding-bottom: 1vw;
 	}
 	
@@ -512,10 +512,10 @@ a.mail-to:hover, a.street-add:hover {
 	}
 	
 	#header-text-mobile {
-		margin-left: 2vw;
-		margin-right: 2vw;
+		margin-left: -2vw;
+		margin-right: -2vw;
 		margin-top: 2%;
-		font-size: clamp(0.5rem, 1vw, 1rem);
+		font-size: clamp(0.6rem, 1vw, 1rem);
 		font-weight: 200;
 	}
 	
