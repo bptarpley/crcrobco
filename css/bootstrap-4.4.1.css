@@ -466,18 +466,6 @@ a.mail-to:hover, a.street-add:hover {
 
 /*START MOBILE @media only screen and (min-width: px) and (max-width: 576px)*/
 
-@media only screen and (min-width: 320px) and (max-width: 549px) {
-	body {
-		background-image:
-		  linear-gradient(45deg, #fffaed 25%, transparent 25%), 
-		  linear-gradient(135deg, #fffaed 25%, transparent 25%),
-		  linear-gradient(45deg, transparent 75%, #fffaed 75%),
-		  linear-gradient(135deg, transparent 75%, #fffaed 75%);
-		background-size:24vw 24vw; /* Must be a square */
-		background-position:0 0, 12vw 0, 12vw -12vw, 0px 12vw; /* Must be half of one side of the square banana */
-		font-size: 100%;
-	}
-
 @media only screen and (min-width: 550px) and (max-width: 768px) {
 	body {
 		background-image:
